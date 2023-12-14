@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: urob
-      url-base: https://github.com/urob
+    - name: mathiasflaatt
+      url-base: https://github.com/mathiasflaatt
   projects:
     - name: zmk
-      remote: urob
-      revision: main
+      remote: mathiasflaatt
+      revision: adv360-z3.2-mf
       import: app/west.yml
   self:
     path: config
