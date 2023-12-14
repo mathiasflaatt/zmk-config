@@ -8,7 +8,7 @@
 #endif
 
 #include "../zmk-nodefree-config/helper.h"
-#include "../zmk-nodefree-config/international_chars/danish.dtsi"
+#include "../zmk-nodefree-config/international_chars/norwegian.dtsi"
 
 #define DEF 0
 #define NAV 1
