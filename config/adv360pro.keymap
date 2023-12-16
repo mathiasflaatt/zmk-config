@@ -8,16 +8,16 @@
 #define X_RT    &kp BSLH
 
 #define X_LM    &kp DEL 
-#define X_MM    &kp MINUS &copy_cut   &kp LG(V)             &kp LC(LS(R))  &kp LS(LC(LALT)) &kp EQUAL 
+#define X_MM    &kp MINUS &copy_cut   &kp LG(V)             &kp LG(LS(R))  &kp LS(LC(LALT)) &kp EQUAL 
 #define X_RM    &kp SQT
 
 #define X_LB    &kp LSHFT
 #define X_RB    &kp RSHFT
+#define X_MB    &kp C_PREV &kp C_NEXT  
 
-#define X_LH    &none &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT     &kp UP &kp DOWN U_WH_D U_WH_U &none \
-                &kp LCTRL &kp LALT      &kp LGUI  &kp RCTRL
-#define X_MH    &kp HOME    &kp PG_UP
-#define X_RH    &kp END     &kp PG_DN
+#define X_LH    &mo 2 &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT  
+#define X_MH    &kp SINGLE_QUOTE     &kp DOUBLE_QUOTES
+#define X_RH    &kp UP &kp DOWN &kp LBKT &kp RBKT &mo 3
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
