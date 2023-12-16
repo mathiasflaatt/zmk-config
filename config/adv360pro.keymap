@@ -2,13 +2,13 @@
 #include "../zmk-nodefree-config/keypos_def/keypos_adv360.h"
 
 /* map 360's extra keys */
-#define X_LT    &kp EQUAL &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F11     &kp F12 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp MINUS \
+#define X_LT    &kp ESCAPE &mt EXCL N1  &mt AT N2  &mt HASH N3 &mt DLLR N4 &mt PRCNT N5 &tog MOUSE     &mo SYS &mt CARET N6 &mt AMPS N7  &mt RS(STAR) N8 &mt LPAR N9  &mt RPAR N0 &kp MINUS \
                 &kp TAB
-#define X_MT    &none &none
+#define X_MT    &kp SLASH  &kp LS(LA(MINUS))
 #define X_RT    &kp BSLH
 
-#define X_LM    &kp ESC
-#define X_MM    &none &none
+#define X_LM    &kp DEL 
+#define X_MM    &kp MINUS &kp EQUAL 
 #define X_RM    &kp SQT
 
 #define X_LB    &kp LSHFT
